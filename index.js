@@ -34,7 +34,7 @@ client.on('ready', async () => {
     .setAssetsLargeText('lover') //Text when you hover the Large image
     .setAssetsSmallImage('mp:attachments/1078599543693787266/1184442280111779880/1129575327291682866.gif?ex=658bfcd5&is=657987d5&hm=d323fb67bcd0e005580a6bab&') //You can put links in tenor or discord and etc.
     .setAssetsSmallText('lost') //Text when you hover the Small image
-    .addButton('♱', 'https://open.spotify.com/track/1NZs6n6hl8UuMaX0UC0YTz?si=5fcc5244c9ae4d8e')
+    .addButton('♱', 'https://discord.gg/UKpgfW5J')
     .addButton('glory', 'https://open.spotify.com/track/1NZs6n6hl8UuMaX0UC0YTz?si=5fcc5244c9ae4d8e');
 
   client.user.setActivity(r);
