@@ -44,7 +44,7 @@ client.on('ready', async () => {
   setInterval(() => {
     const newTime = formatTime();
     if (newTime !== prevTime) {
-      const newDetails = `murder`;
+      const newDetails = `Llorando por xavi`;
       r.setDetails(newDetails);
       client.user.setActivity(r);
       prevTime = newTime;
