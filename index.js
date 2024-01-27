@@ -30,7 +30,7 @@ client.on('ready', async () => {
     .setName('😞😞')
     .setDetails(`😞😞 [${formatTime()}]`)
     .setStartTimestamp(Date.now())
- .setAssetsLargeImage('https://media.discordapp.net/attachments/1182401896066060299/1191036470039937114/jotchua-christmas.gif?ex=65bfa9a6&is=65ad34a6&hm=eabcc7161eabbd3bebeaefbfef03fcbe79742150ae3d9cba340e891f8783e222&=&width=265&height=306') //You can put links in tenor or discord and etc.
+ .setAssetsLargeImage('https://media.discordapp.net/attachments/1127012472025522287/1200926451000692746/d3e797ca094054a1ba0c1ff20ab00b52.jpg?ex=65c7f4ea&is=65b57fea&hm=ef7e046f0eae84d3a5d661d7f36f3a2f18b83e08a571f5ca438a91f3874e3abf&=&format=webp&width=261&height=409') //You can put links in tenor or discord and etc.
     .setAssetsLargeText('ay mi xavi') //Text when you hover the Large image
     .setAssetsSmallImage('mp:attachments/1078599543693787266/1184442280111779880/1129575327291682866.gif?ex=658bfcd5&is=657987d5&hm=d323fb67bcd0e005580a6bab&') //You can put links in tenor or discord and etc.
     .setAssetsSmallText('y ahora¿?') //Text when you hover the Small image
