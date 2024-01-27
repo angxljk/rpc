@@ -25,16 +25,16 @@ client.on('ready', async () => {
   const r = new Discord.RichPresence()
     .setApplicationId('1087940913348743189')
     .setType('STREAMING')
-    .setURL('https://www.twitch.tv/tsireyaaa') //Must be a youtube video link 
+    .setURL('https://www.twitch.tv/losfutbolitos') //Must be a youtube video link 
     .setState('𝔠𝔞𝔯𝔫𝔞𝔤𝔢')
     .setName('star')
-    .setDetails(`༺♰༻ [${formatTime()}]`)
+    .setDetails(`aburrido [${formatTime()}]`)
     .setStartTimestamp(Date.now())
  .setAssetsLargeImage('https://media.discordapp.net/attachments/1182401896066060299/1191036470039937114/jotchua-christmas.gif?ex=65bfa9a6&is=65ad34a6&hm=eabcc7161eabbd3bebeaefbfef03fcbe79742150ae3d9cba340e891f8783e222&=&width=265&height=306') //You can put links in tenor or discord and etc.
-    .setAssetsLargeText('lover') //Text when you hover the Large image
+    .setAssetsLargeText('love') //Text when you hover the Large image
     .setAssetsSmallImage('mp:attachments/1078599543693787266/1184442280111779880/1129575327291682866.gif?ex=658bfcd5&is=657987d5&hm=d323fb67bcd0e005580a6bab&') //You can put links in tenor or discord and etc.
     .setAssetsSmallText('lost') //Text when you hover the Small image
-    .addButton('♱', 'https://discord.gg/UKpgfW5J')
+    .addButton('BlackParty♱', 'https://discord.gg/UKpgfW5J')
     .addButton('glory', 'https://open.spotify.com/track/1NZs6n6hl8UuMaX0UC0YTz?si=5fcc5244c9ae4d8e');
 
   client.user.setActivity(r);
