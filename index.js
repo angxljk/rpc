@@ -30,7 +30,7 @@ client.on('ready', async () => {
     .setName('star')
     .setDetails(`༺♰༻ [${formatTime()}]`)
     .setStartTimestamp(Date.now())
- .setAssetsLargeImage('mp:attachments/991719725019181076/1188377687056720003/32.gif?ex=659a4df7&is=6587d8f7&hm=e7a86c95ccdc3133bec2e2b3&') //You can put links in tenor or discord and etc.
+ .setAssetsLargeImage('https://media.discordapp.net/attachments/1182401896066060299/1191036470039937114/jotchua-christmas.gif?ex=65bfa9a6&is=65ad34a6&hm=eabcc7161eabbd3bebeaefbfef03fcbe79742150ae3d9cba340e891f8783e222&=&width=265&height=306') //You can put links in tenor or discord and etc.
     .setAssetsLargeText('lover') //Text when you hover the Large image
     .setAssetsSmallImage('mp:attachments/1078599543693787266/1184442280111779880/1129575327291682866.gif?ex=658bfcd5&is=657987d5&hm=d323fb67bcd0e005580a6bab&') //You can put links in tenor or discord and etc.
     .setAssetsSmallText('lost') //Text when you hover the Small image
