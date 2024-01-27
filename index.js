@@ -3,10 +3,8 @@ const client = new Discord.Client({
   readyStatus: false,
   checkUpdate: false
 });
-
 const keepAlive = require('./server.js');
 keepAlive();
-
 function formatTime() { //Credits to himika#0001 and never#0001
   const date = new Date();
   const options = {
@@ -17,7 +15,6 @@ function formatTime() { //Credits to himika#0001 and never#0001
   };
   return new Intl.DateTimeFormat('en-US', options).format(date);
 }
-
 client.on('ready', async () => {
   console.clear();
   console.log(`${client.user.tag} - rich presence started!`);
@@ -36,10 +33,8 @@ client.on('ready', async () => {
     .setAssetsSmallText('Twitch') //Text when you hover the Small image
     .addButton('Watch', 'https://www.youtube.com/watch?v=dQw4w9WgXcQ')
     .addButton('Donate', 'https://www.youtube.com/watch?v=dQw4w9WgXcQ');
-
   client.user.setActivity(r);
   client.user.setPresence({ status: "dnd" }); //dnd, online, idle, offline
-
   let prevTime = null;
   setInterval(() => {
     const newTime = formatTime();
@@ -51,6 +46,5 @@ client.on('ready', async () => {
     }
   }, 1000); // Update every second
 });
-
 const mySecret = process.env['TOKEN'];
 client.login(mySecret);
