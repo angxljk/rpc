@@ -3,8 +3,10 @@ const client = new Discord.Client({
   readyStatus: false,
   checkUpdate: false
 });
+
 const keepAlive = require('./server.js');
 keepAlive();
+
 function formatTime() { //Credits to himika#0001 and never#0001
   const date = new Date();
   const options = {
@@ -15,6 +17,7 @@ function formatTime() { //Credits to himika#0001 and never#0001
   };
   return new Intl.DateTimeFormat('en-US', options).format(date);
 }
+
 client.on('ready', async () => {
   console.clear();
   console.log(`${client.user.tag} - rich presence started!`);
@@ -22,7 +25,7 @@ client.on('ready', async () => {
   const r = new Discord.RichPresence()
     .setApplicationId('1087940913348743189')
     .setType('STREAMING')
-    .setURL('https://www.twitch.tv/developer') //Must be a youtube video link 
+    .setURL('https://www.youtube.com/watch?v=dQw4w9WgXcQ') //Must be a youtube video link 
     .setState('Recording')
     .setName('test')
     .setDetails(`test [${formatTime()}]`)
@@ -31,10 +34,12 @@ client.on('ready', async () => {
     .setAssetsLargeText('Boring') //Text when you hover the Large image
     .setAssetsSmallImage('') //You can put links in tenor or discord and etc.
     .setAssetsSmallText('Twitch') //Text when you hover the Small image
-    .addButton('Watch', 'https://www.youtube.com/watch?v=dQw4w9WgXcQ')
-    .addButton('Donate', 'https://www.youtube.com/watch?v=dQw4w9WgXcQ');
+    .addButton('Watch', 'https://twitch.tv/developer')
+    .addButton('Donate', 'https://discord.com/channels/1126406880881815625/1126407676688080967');
+
   client.user.setActivity(r);
   client.user.setPresence({ status: "dnd" }); //dnd, online, idle, offline
+
   let prevTime = null;
   setInterval(() => {
     const newTime = formatTime();
@@ -46,5 +51,6 @@ client.on('ready', async () => {
     }
   }, 1000); // Update every second
 });
+
 const mySecret = process.env['TOKEN'];
 client.login(mySecret);
