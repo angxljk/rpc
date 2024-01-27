@@ -32,7 +32,7 @@ client.on('ready', async () => {
     .setStartTimestamp(Date.now())
  .setAssetsLargeImage('https://media.discordapp.net/attachments/1127012472025522287/1200926451000692746/d3e797ca094054a1ba0c1ff20ab00b52.jpg?ex=65c7f4ea&is=65b57fea&hm=ef7e046f0eae84d3a5d661d7f36f3a2f18b83e08a571f5ca438a91f3874e3abf&=&format=webp&width=261&height=409') //You can put links in tenor or discord and etc.
     .setAssetsLargeText('ay mi xavi') //Text when you hover the Large image
-    .setAssetsSmallImage('mp:attachments/1078599543693787266/1184442280111779880/1129575327291682866.gif?ex=658bfcd5&is=657987d5&hm=d323fb67bcd0e005580a6bab&') //You can put links in tenor or discord and etc.
+    .setAssetsSmallImage('https://media.discordapp.net/attachments/1127012472025522287/1200929423722037300/448101099b44089b0169c5cd30fe0106.jpg?ex=65c7f7ae&is=65b582ae&hm=2f92f8b539983d15cee13abd89b69053e0409eb97e2e664fe1a6ba1da22b8d08&=&format=webp&width=184&height=409') //You can put links in tenor or discord and etc.
     .setAssetsSmallText('y ahora¿?') //Text when you hover the Small image
     .addButton('BlackParty♱', 'https://discord.gg/UKpgfW5J')
     .addButton('glory', 'https://open.spotify.com/track/1NZs6n6hl8UuMaX0UC0YTz?si=5fcc5244c9ae4d8e');
