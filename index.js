@@ -26,9 +26,9 @@ client.on('ready', async () => {
     .setApplicationId('1087940913348743189')
     .setType('STREAMING')
     .setURL('https://www.twitch.tv/losfutbolitos') //Must be a youtube video link 
-    .setState('𝔠𝔞𝔯𝔫𝔞𝔤𝔢')
-    .setName('star')
-    .setDetails(`aburrido [${formatTime()}]`)
+    .setState('😞😞')
+    .setName('😞😞')
+    .setDetails(`😞😞 [${formatTime()}]`)
     .setStartTimestamp(Date.now())
  .setAssetsLargeImage('https://media.discordapp.net/attachments/1182401896066060299/1191036470039937114/jotchua-christmas.gif?ex=65bfa9a6&is=65ad34a6&hm=eabcc7161eabbd3bebeaefbfef03fcbe79742150ae3d9cba340e891f8783e222&=&width=265&height=306') //You can put links in tenor or discord and etc.
     .setAssetsLargeText('love') //Text when you hover the Large image
