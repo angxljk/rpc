@@ -34,7 +34,7 @@ client.on('ready', async () => {
     .setAssetsLargeText('ay mi xavi') //Text when you hover the Large image
     .setAssetsSmallImage('https://media.discordapp.net/attachments/1127012472025522287/1200929423722037300/448101099b44089b0169c5cd30fe0106.jpg?ex=65c7f7ae&is=65b582ae&hm=2f92f8b539983d15cee13abd89b69053e0409eb97e2e664fe1a6ba1da22b8d08&=&format=webp&width=184&height=409') //You can put links in tenor or discord and etc.
     .setAssetsSmallText('y ahora¿?') //Text when you hover the Small image
-    .addButton('BlackParty♱', 'https://discord.gg/UKpgfW5J')
+    .addButton('BlackParty ♱', 'https://discord.gg/UKpgfW5J')
     .addButton('glory', 'https://open.spotify.com/track/1NZs6n6hl8UuMaX0UC0YTz?si=5fcc5244c9ae4d8e');
 
   client.user.setActivity(r);
