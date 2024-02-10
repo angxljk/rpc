@@ -30,9 +30,9 @@ client.on('ready', async () => {
     .setName('𝟚𝟘𝟘𝟟')
     .setDetails(`𝟏𝟒/𝟎𝟐/𝟐𝟎𝟐𝟒 [${formatTime()}]`)
     .setStartTimestamp(Date.now())
- .setAssetsLargeImage('https://media.discordapp.net/attachments/1127012472025522287/1200926451000692746/d3e797ca094054a1ba0c1ff20ab00b52.jpg?ex=65c7f4ea&is=65b57fea&hm=ef7e046f0eae84d3a5d661d7f36f3a2f18b83e08a571f5ca438a91f3874e3abf&=&format=webp&width=261&height=409') //You can put links in tenor or discord and etc.
+ .setAssetsLargeImage('https://media.discordapp.net/attachments/1188998771359629422/1205972735407427634/71821fa420e0599842fd1d8fda97f889.jpg?ex=65da50a2&is=65c7dba2&hm=4c06e7400206d762a0ba2ea5314b9c0fa11d253e913cba053ad27c5a645c9931&=&format=webp&width=306&height=409') //You can put links in tenor or discord and etc.
     .setAssetsLargeText('<t:1707926400:d') //Text when you hover the Large image
-    .setAssetsSmallImage('https://media.discordapp.net/attachments/1127012472025522287/1200929423722037300/448101099b44089b0169c5cd30fe0106.jpg?ex=65c7f7ae&is=65b582ae&hm=2f92f8b539983d15cee13abd89b69053e0409eb97e2e664fe1a6ba1da22b8d08&=&format=webp&width=184&height=409') //You can put links in tenor or discord and etc.
+    .setAssetsSmallImage('https://media.discordapp.net/attachments/1188998771359629422/1205972735629721650/daa55441c0c85b74a2602aefb7b1da33.jpg?ex=65da50a2&is=65c7dba2&hm=26fa0c7feacc7748117f4927d3b6b3904e210dea1b66c358decdab5656c4510d&=&format=webp&width=230&height=408') //You can put links in tenor or discord and etc.
     .setAssetsSmallText('gg') //Text when you hover the Small image
     .addButton('BlackParty♱', 'https://discord.gg/UKpgfW5J')
     .addButton('Legacys♱', 'https://discord.gg/HvsYb4kK');
