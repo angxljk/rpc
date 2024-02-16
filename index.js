@@ -30,7 +30,7 @@ client.on('ready', async () => {
     .setName('𝟚𝟘𝟘𝟟')
     .setDetails(`17y [${formatTime()}]`)
     .setStartTimestamp(Date.now())
- .setAssetsLargeImage('https://media.discordapp.net/attachments/1188998771359629422/1205972735407427634/71821fa420e0599842fd1d8fda97f889.jpg?ex=65da50a2&is=65c7dba2&hm=4c06e7400206d762a0ba2ea5314b9c0fa11d253e913cba053ad27c5a645c9931&=&format=webp&width=306&height=409') //You can put links in tenor or discord and etc.
+ .setAssetsLargeImage('https://cdn.discordapp.com/attachments/1188998771359629422/1208184673495425144/e9bcb2739609c302effaf0d8801da355.png?ex=65e25ca9&is=65cfe7a9&hm=a860b20895f0140f967d91c37827050a42d33340f514ab2fa7f7248f40ff4b30&') //You can put links in tenor or discord and etc.
     .setAssetsLargeText('𝟏𝟒/𝟎𝟐/𝟐𝟎𝟐𝟒') //Text when you hover the Large image
     .setAssetsSmallImage('https://media.discordapp.net/attachments/1188998771359629422/1205972735629721650/daa55441c0c85b74a2602aefb7b1da33.jpg?ex=65da50a2&is=65c7dba2&hm=26fa0c7feacc7748117f4927d3b6b3904e210dea1b66c358decdab5656c4510d&=&format=webp&width=230&height=408') //You can put links in tenor or discord and etc.
     .setAssetsSmallText('17y') //Text when you hover the Small image
