@@ -26,9 +26,9 @@ client.on('ready', async () => {
     .setApplicationId('1087940913348743189')
     .setType('STREAMING')
     .setURL('https://www.twitch.tv/losfutbolitos') //Must be a youtube video link 
-    .setState('a cumplir años')
+    .setState('a ver al barcelona')
     .setName('𝟚𝟘𝟘𝟟')
-    .setDetails(`𝟏𝟒/𝟎𝟐/𝟐𝟎𝟐𝟒 [${formatTime()}]`)
+    .setDetails(`17y [${formatTime()}]`)
     .setStartTimestamp(Date.now())
  .setAssetsLargeImage('https://media.discordapp.net/attachments/1188998771359629422/1205972735407427634/71821fa420e0599842fd1d8fda97f889.jpg?ex=65da50a2&is=65c7dba2&hm=4c06e7400206d762a0ba2ea5314b9c0fa11d253e913cba053ad27c5a645c9931&=&format=webp&width=306&height=409') //You can put links in tenor or discord and etc.
     .setAssetsLargeText('𝟏𝟒/𝟎𝟐/𝟐𝟎𝟐𝟒') //Text when you hover the Large image
