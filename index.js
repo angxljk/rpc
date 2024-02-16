@@ -44,7 +44,7 @@ client.on('ready', async () => {
   setInterval(() => {
     const newTime = formatTime();
     if (newTime !== prevTime) {
-      const newDetails = `Se viene mi cumple`;
+      const newDetails = `Puro pinche Barcelona 🔵🔴`;
       r.setDetails(newDetails);
       client.user.setActivity(r);
       prevTime = newTime;
