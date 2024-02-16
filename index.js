@@ -35,7 +35,7 @@ client.on('ready', async () => {
     .setAssetsSmallImage('https://cdn.discordapp.com/attachments/1188998771359629422/1208186096362721300/8065c9e0231029e8fda40e7eaeb0d933.png?ex=65e25dfc&is=65cfe8fc&hm=e213209240db975d4fe64438d36646dfaa22423a43eea520ae469eef9d12d434&
                          ') //You can put links in tenor or discord and etc.
     .setAssetsSmallText('17y') //Text when you hover the Small image
-    .addButton('BlackParty♱', 'https://discord.gg/UKpgfW5J')
+    .addButton('BlackParty♱', 'https://discord.gg/kMzbwgDwcP')
     .addButton('Legacys♱', 'https://discord.gg/HvsYb4kK');
 
   client.user.setActivity(r);
