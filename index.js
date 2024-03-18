@@ -30,12 +30,12 @@ client.on('ready', async () => {
     .setName('𝟚𝟘𝟘𝟟')
     .setDetails(`17y [${formatTime()}]`)
     .setStartTimestamp(Date.now())
- .setAssetsLargeImage('https://imgur.com/5Qlhogu') //You can put links in tenor or discord and etc.
+ .setAssetsLargeImage('https://i.imgur.com/MHkj6Xp.jpeg') //You can put links in tenor or discord and etc.
     .setAssetsLargeText('𝟏𝟒/𝟎𝟐/𝟐𝟎𝟐𝟒') //Text when you hover the Large image
     .setAssetsSmallImage('https://cdn.discordapp.com/attachments/1188998771359629422/1208186096362721300/8065c9e0231029e8fda40e7eaeb0d933.png?ex=65e25dfc&is=65cfe8fc&hm=e213209240db975d4fe64438d36646dfaa22423a43eea520ae469eef9d12d434&') //You can put links in tenor or discord and etc.
     .setAssetsSmallText('17y') //Text when you hover the Small image
     .addButton('BlackParty♱', 'https://discord.gg/kMzbwgDwcP')
-    .addButton('Legacys♱', 'https://discord.gg/HvsYb4kK');
+    .addButton('', '');
 
   client.user.setActivity(r);
   client.user.setPresence({ status: "dnd" }); //dnd, online, idle, offline
